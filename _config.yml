@@ -1,13 +1,19 @@
-title:   Elvis Liang
-logo: "/images/Profile.png?raw=true" # your photo (or logo) here
-description: > # your text below (remove <br> elements if you don't need line breaks)
-  <br><br>
-  Perceptive and logical professional with proven ability to communicate with both technical professionals and end users to identify and translate business requirements. Proven ability to work with talented professionals to develop valuable process solutions to meet business objectives. 
-  <br><br><br>
-  <a href="https://www.linkedin.com/in/shuchangl/">View My LinkedIn Profile</a>
-  <br><br>
-  <a href="https://public.tableau.com/profile/shuchang.liang#!/">View My Tableau Work Samples</a>
-  <br><br>
-  <a href="https://www.notion.so/elvisliang/Portfolio-Elvis-Liang-0d7092fc3fc34f50a878f88a380471f6">View My Notion Portfolios</a>
+title: <p align="left"> Amy Anh Hoang </p>
+
+logo: "/images/photo.png?raw=true"
+
+description:
+  <p align="center">
+  <a href="https://public.tableau.com/app/profile/amy.hoang02">Tableau Portfolio</a> |
+  <a href="https://www.linkedin.com/in/amy-anh-bui/">LinkedIn</a> |
+  <a href="https://github.com/amyhoang02">GitHub</a>
+  </p>
   
-theme: jekyll-theme-minimal  
+  <p align="justify">
+  I am a certified Applied Business Intelligence from Toronto Institute of Data Science & Technology. 
+  <br><br>
+  I am currently a Credit Analyst at Flexiti Financial who is well-equipped with understanding of customer credit-worthiness and ability to analyze financial health.
+  <br><br>
+  </p>
+  
+theme: jekyll-theme-minimal
