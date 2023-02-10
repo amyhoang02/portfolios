@@ -32,7 +32,7 @@ Extract-transform-load (ETL) Google Analytics data in BigQuery on Google Cloud P
 
 4 parameters: `Select Year`, `Select Month`, `Select Dimension`, `Select KPI`
 
-<center><img src="images/Google Analytic KPI1.png?raw=true"/></center>
+<center><img src="images/GMS.PNG?raw=true"/></center>
 
 
 
