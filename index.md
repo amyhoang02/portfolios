@@ -22,7 +22,7 @@ My goal of this project is providing a 360-degree of E-commerce retail KPIs dash
 
 Extract-transform-load (ETL) Google Analytics data in BigQuery on Google Cloud Platform (GCP)
 
-<center><img src="images/treemap.png"/></center>
+<center><img src="images/treemap.PNG"/></center>
 
 15 attributes: `Date`, `Channel Grouping`, `Device Category`, `Page`, `Page Title`, `Country`, `City`, `Source Medium`, `Pageviews`, `Unique Pageviews`, `Sessions`, `Bounces`, `Exits`, `Time on Page`, `Page Load Time`
 
