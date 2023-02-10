@@ -10,27 +10,14 @@ My goal of this project is providing a 360-degree of E-commerce retail KPIs dash
 
 #### **Technical Highlights:**
 
-• Wildcard to 'union' GA sessions
+- Wildcard to 'union' GA sessions
+- Nested data structure: `users` > `sessions` > `hits`
+- Unnest nested data to get hit level raw data
+- Window functions
+- Extract-transform-load (ETL) Google Analytics data in BigQuery on Google Cloud Platform (GCP)
 
-• Nested data structure: `users` > `sessions` > `hits`
-
-• Unnest nested data to get hit level raw data
-
-• Window functions
-
-#### **Dashboard Elements:** 
-
-Extract-transform-load (ETL) Google Analytics data in BigQuery on Google Cloud Platform (GCP)
-
-<center><img src="images/treemap.PNG"/></center>
-
-15 attributes: `Date`, `Channel Grouping`, `Device Category`, `Page`, `Page Title`, `Country`, `City`, `Source Medium`, `Pageviews`, `Unique Pageviews`, `Sessions`, `Bounces`, `Exits`, `Time on Page`, `Page Load Time`
-
-12 KPIs: `Total Sessions`, `Avg Duration`, `Total Pageviews`, `Avg Pageviews`, `Avg Time on Page`, `Total Unique Pageviews`, `Avg Unique Pageviews`, `Total Bounces`, `Bounce %`, `Exit %`, `Page Load Time`, `Daily Sessions`
-
-6 filters: `Year`, `Month`, `Channel`, `Country`, `Device`, `Source`
-
-4 parameters: `Select Year`, `Select Month`, `Select Dimension`, `Select KPI`
+**Dynamic digital analytic dashboard:** During specific one year timeframe from 2016-08-01 to 2017-08-01, total session increase by 12.7% in March 2017 compared to
+February 2017 with volume traffic via Direct source dropped by 68% in the same period.
 
 <center><img src="images/GMS.PNG?raw=true"/></center>
 
