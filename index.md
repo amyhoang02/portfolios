@@ -1,14 +1,39 @@
-## Portfolio
-
+# Portfolio
 ---
+## Google Merchandise Store 
 
-### Project Samples
+### *Tableau, Google Analytics, Google BigQuery*
 
-[Google Merchandise Store Dashboard (Google Analytics, BigQuery, BI, Tableau)](https://public.tableau.com/app/profile/amy.hoang02/viz/GoogleMerchandiseStoreAnalytic/Dashboard1)
--	Transformed useful digital marketing KPIs: Session and Hit levels by using Google BigQuery large data store. 
--	Queried a unnested, relational table from GBQ (1.4-million records).
--	Built a dynamic KPI dashboard to showcase monthly/yearly traffic based on different metrics (total sessions, average pageviews, average duration on page per source and per location, acquisition amounts per channel, and bounce rate per page).
-<img src="images/Google Analytic KPI1.png?raw=true"/>
+My goal of this project is providing a 360-degree of E-commerce retail KPIs dashboard with handy filters to quickly automate different monthly/yearly metrics ***(average page-view, bounce rate per page, traffic per location)***.
+
+[![View on GitHub](https://img.shields.io/badge/Tableau-View%20on%20Tableau-E97627?logo=Tableau)](https://public.tableau.com/app/profile/amy.hoang02/viz/GoogleMerchandiseStoreAnalytic/Dashboard1)
+
+#### **Technical Highlights:**
+
+• Wildcard to 'union' GA sessions
+
+• Nested data structure: `users` > `sessions` > `hits`
+
+• Unnest nested data to get hit level raw data
+
+• Window functions
+
+#### **Dashboard Elements:** 
+
+Extract-transform-load (ETL) Google Analytics data in BigQuery on Google Cloud Platform (GCP)
+
+<center><img src="images/treemap.png"/></center>
+
+15 attributes: `Date`, `Channel Grouping`, `Device Category`, `Page`, `Page Title`, `Country`, `City`, `Source Medium`, `Pageviews`, `Unique Pageviews`, `Sessions`, `Bounces`, `Exits`, `Time on Page`, `Page Load Time`
+
+12 KPIs: `Total Sessions`, `Avg Duration`, `Total Pageviews`, `Avg Pageviews`, `Avg Time on Page`, `Total Unique Pageviews`, `Avg Unique Pageviews`, `Total Bounces`, `Bounce %`, `Exit %`, `Page Load Time`, `Daily Sessions`
+
+6 filters: `Year`, `Month`, `Channel`, `Country`, `Device`, `Source`
+
+4 parameters: `Select Year`, `Select Month`, `Select Dimension`, `Select KPI`
+
+<center><img src="images/Google Analytic KPI1.png?raw=true"/></center>
+
 
 
 ---
