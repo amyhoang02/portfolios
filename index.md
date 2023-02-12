@@ -35,6 +35,7 @@ I aimed at extracting insights of consumption trendings at different customer se
 First, I designed and implemented ELT pipelines on Python to clean and transform from raw database into equivalent data types. Then, to identify **churn rate** (at 1.25%) and forecast COA that effectively support Retention and Acquisition team, I calculated marketing KPIs such as **Conversion rate, Response rate, Retention rate**. 
 Next, in order to showcase the relationship between Income and Amount Spending, I plotted these two attributes to validate my assumption. I also performed Heatmap to indicate the correlation between each attribute.
 
+<center><img src="images/scatterplot.PNG"/></center>
 <center><img src="images/heatmap.PNG?raw=true"/></center>
 
 ---
